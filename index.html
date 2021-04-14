@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Proj1_ToDo</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <script src="ToDo.js"></script>
+    <h2>My To Do List</h2>
+
+
+  <table id="ToDo">
+      <tr>
+        <th>What needs to be done?</th>
+        <th>When?</th>
+        <th>Who?</th>
+        <th>Is it done?</th>
+      </tr>
+      <tr>
+        <td class=>Buy shrimps</td>
+        <td>Tomorrow</td>
+        <td>Name</td>
+        <td><input type="checkbox" id="checked" value="0"></td>
+        <td><input type="button" id="btn" value="Delete" onclick="deleteRow(this)"></td>
+      </tr>
+  </table>
+  <p>
+    What needs to be done?
+      <label for="textfield">:</label>
+    <input type="text"  id="textfield">
+    <br>
+    When it needs to be done?
+    <input type="text"  id="textfield2">
+  <br>
+  Who makes it done?
+  <input type="text"  id="textfield3">
+  <br>
+  <input type="button" onclick="insertRows()" value="Insert">
+  </p>
+
+
+    
+      
+
+</body>
+</html> 
